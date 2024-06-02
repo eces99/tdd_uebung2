@@ -1,7 +1,7 @@
 // electron.js
 function Electrons() {}
 
-var win = 5;
+var win = 0;
 
 Electrons.prototype.add = function(electron_array) {
 	// Sith simple prod code
@@ -20,5 +20,6 @@ Electrons.prototype.add = function(electron_array) {
             sum += electron_array[i];
         }
     }
+    win++;
     return sum;
 };
