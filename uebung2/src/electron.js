@@ -1,10 +1,6 @@
 // electron.js
 function Electrons() {}
 Electrons.prototype.add = function(electron_array) {
-    // failing test for the third array
-    if (electron_array == '[ 6, 6, 4, 4, 1, 3 ]') {
-        return 2;
-    }
 
     // Refactoring
     var sum = 0;
