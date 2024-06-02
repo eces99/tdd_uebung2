@@ -21,4 +21,8 @@ describe('Electrons', function() {
 	it('should return 0 for the fitht array', function() {
         expect(electron.add('[ 1, 1, 1, 1, 1 ]')).toEqual(0);
     });
+
+	it('should return 5 for 5 correct numbers in a row', function() {
+        expect(electron.win).toEqual(5);
+    });
 });
