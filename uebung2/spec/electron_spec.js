@@ -13,4 +13,8 @@ describe('Electrons', function() {
     it('should return 2 for the third array', function() {
         expect(electron.add('[ 6, 6, 4, 4, 1, 3 ]')).toEqual(2);
     });
+
+    it('should return 12 for the fourth array', function() {
+        expect(electron.add('[ 3, 5, 3, 5, 4, 2 ]')).toEqual(12);
+    });
 });
