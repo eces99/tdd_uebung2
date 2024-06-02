@@ -1,10 +1,7 @@
 // electron.js
 function Electrons() {}
 Electrons.prototype.add = function(electron_array) {
-    // first faiiling test for the second array
-    if (electron_array === '[ 2, 2, 3, 3 ]') {
-        return 4;
-    }
+
     // Refactoring
     var sum = 0;
     var electron_array = electron_array.replace(/\[|\]/g, '').split(', ');
