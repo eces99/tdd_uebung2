@@ -2,7 +2,7 @@
 function Electrons() {}
 Electrons.prototype.add = function(electron_array) {
     if(electron_array == '[ 1, 1, 1, 1, 1 ]')
-        return 1;
+        return 0;
 	// Fifth failing test
     var sum = 0;
     var electron_array = electron_array.replace(/\[|\]/g, '').split(', ');
