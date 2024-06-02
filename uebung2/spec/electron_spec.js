@@ -23,6 +23,6 @@ describe('Electrons', function() {
     });
 
 	it('should return 5 for 5 correct numbers in a row', function() {
-        expect(electron.win).toEqual(5);
+		expect(win).toEqual(5);
     });
 });
